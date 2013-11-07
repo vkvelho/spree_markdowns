@@ -2,7 +2,12 @@ require 'redcarpet'
 
 Spree::Product.class_eval do
   def description_html
-    desc = description.empty? ? 'This product has no description' : description
+    if defined?(desc) && desc.present?
+ 		desc
+ 	else
+ 		'This Product has no description'
+ 	end
+
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
     markdown.render(desc)
   end
