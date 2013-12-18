@@ -1,0 +1,2 @@
+<!-- surround_contents '.markdown' -->
+<div style="color: red"><%= render_original %></div>
