@@ -1,7 +1,7 @@
 SpreeMarkdowns
 ==============
 
-Introduction goes here.
+[![Code Climate](https://codeclimate.com/github/vkvelho/spree_markdowns.png)](https://codeclimate.com/github/vkvelho/spree_markdowns)
 
 Installation
 ------------
