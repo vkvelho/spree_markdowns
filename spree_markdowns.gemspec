@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_markdowns'
   s.version     = '2.0.3'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Experimental extension, to support markdown in Spree'
+  s.description = 'This extension is a hairy and dangerous one. Stay away.'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Ilkka Sopanen'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.1.2'
+  s.add_dependency 'spree_core', '~> 2.1.3'
   s.add_dependency 'redcarpet'
 
   s.add_development_dependency 'capybara', '~> 2.1'
